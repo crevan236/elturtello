@@ -1,0 +1,30 @@
+#main {
+  height: 100vh;
+}
+
+nz-content {
+  margin: 0 16px;
+}
+
+.inner-content {
+  background: #fff;
+  height: 100%;
+}
+
+#logo {
+  display: block;
+  width: calc(100% - 60px);
+  float: left;
+  padding: 6px 12px 0px 12px;
+}
+
+#spinner {
+  display: block;
+  width: 60px;
+  float: left;
+  padding: 6px 12px 0px 12px;
+}
+
+nz-sider h2 {
+  color: #fff;
+}

@@ -1,0 +1,94 @@
+forward 50
+turnright 90
+forward 50
+turnright 90
+forward 50
+turnright 85
+forward 50
+//
+go 0 -50
+turnleft 90
+forward 50
+turnleft 90
+forward 100
+turnleft 90
+forward 100
+turnleft 90
+forward 100
+turnleft 90
+forward 50
+//
+pencolor 204 51 255
+
+go 0 50
+turnleft 90
+forward 50
+turnleft 90
+forward 100
+turnleft 90
+forward 100
+turnleft 90
+forward 100
+turnleft 90
+forward 50
+
+pencolor 0 153 0
+penwidth 1
+
+go 0 300
+
+forward 50
+turnleft 90
+forward 100
+turnleft 90
+forward 100
+turnleft 90
+forward 100
+turnleft 90
+forward 50
+//
+forward 100
+turnleft 90
+forward 100
+turnright 120
+forward 300
+direction 0
+backward 100
+//
+go -300 -300
+penwidth 20
+forward 100
+turnright 90
+forward 100
+turnleft 90
+forward 300
+turnright 90
+forward 100
+turnright 90
+forward 300
+turnleft 90
+forward 100
+turnright 90
+forward 100
+//
+forward 50
+turnright 45
+forward 50
+turnright 45
+forward 50
+turnright 45
+forward 50
+turnright 45
+forward 50
+turnright 45
+forward 50
+turnright 45
+forward 50
+turnright 45
+forward 51
+penup
+direction 0
+forward 25
+turnright 90
+forward 60
+pencolor 100 200 50

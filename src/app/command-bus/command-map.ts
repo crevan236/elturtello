@@ -1,0 +1,36 @@
+import { CommandType } from './command';
+import {
+  Backward,
+  Center,
+  Direction,
+  Finish,
+  Forward,
+  Go,
+  GoX,
+  GoY,
+  PenColor,
+  PenDown,
+  PenUp,
+  PenWidth,
+  Restart,
+  TurnLeft,
+  TurnRight,
+} from './commands';
+
+export const commandMap = {
+  [CommandType.center]: Center,
+  [CommandType.forward]: Forward,
+  [CommandType.backward]: Backward,
+  [CommandType.turnleft]: TurnLeft,
+  [CommandType.turnright]: TurnRight,
+  [CommandType.direction]: Direction,
+  [CommandType.go]: Go,
+  [CommandType.gox]: GoX,
+  [CommandType.goy]: GoY,
+  [CommandType.restart]: Restart,
+  [CommandType.penup]: PenUp,
+  [CommandType.pendown]: PenDown,
+  [CommandType.penwidth]: PenWidth,
+  [CommandType.pencolor]: PenColor,
+  [CommandType.finish]: Finish,
+};

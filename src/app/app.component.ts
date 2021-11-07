@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'elturtello';
+  sidebarWidth = '24%';
+  reloading = false;
+
+  toggleReloading(reloading: boolean) {
+    this.reloading = reloading;
+  }
 }
